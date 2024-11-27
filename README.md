@@ -1,22 +1,24 @@
-Task Manager App
+# Task Manager App
 
 A simple React, Redux, and TypeScript-based Task Manager app that allows you to add, delete, and filter tasks (Completed or Pending).
 
-Features
+## Features
+- Add, delete, and toggle task status.
+- Filter tasks by status (All, Completed, Pending).
 
-Add, delete, and toggle task status.
-Filter tasks by status (All, Completed, Pending).
-Technologies
-React.js
-Redux (state management)
-TypeScript
-CSS
+## Technologies
+- React.js
+- Redux (state management)
+- TypeScript
+- CSS
 
-Prerequisites
+## Prerequisites
+Ensure you have **Node.js** and **npm** installed. Check versions with:
 
-Ensure you have Node.js and npm installed. Check versions with:
+```bash
 node -v
 npm -v
+
 
 Getting Started
 
