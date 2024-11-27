@@ -18,27 +18,35 @@ Ensure you have **Node.js** and **npm** installed. Check versions with:
 ```bash
 node -v
 npm -v
+```
 
+## Getting Started
 
-Getting Started
-
-Clone the repository:
+1 Clone the repository:
+```bash
 git clone https://github.com/your-username/task-manager-app.git
 cd task-manager-app
-Install dependencies:
+```
+2 Install dependencies:
+```bash
 npm install
-Run the app:
+```
+3 Run the app:
+```bash
 npm start
-Open http://localhost:3000 in your browser.
+```
+- Open http://localhost:3000 in your browser.
 
-Usage
+## Usage
 
-Add task: Enter task title and click "Add Task".
-Mark completed: Click "Mark as Completed" on the task.
-Filter tasks: Use the "All", "Completed", or "Pending" buttons.
-Delete task: Click "Delete" next to the task.
+- Add task: Enter task title and click "Add Task".
+- Mark completed: Click "Mark as Completed" on the task.
+- Filter tasks: Use the "All", "Completed", or "Pending" buttons.
+- Delete task: Click "Delete" next to the task.
 
-Folder Structure
+## Folder Structure
+
+```bash
 
 /src
   /components
@@ -48,3 +56,7 @@ Folder Structure
     store.ts       # Redux store
     tasksSlice.ts  # Task slice
   index.tsx        # App entry point
+
+```
+
+
